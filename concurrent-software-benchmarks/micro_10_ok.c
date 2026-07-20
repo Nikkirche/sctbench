@@ -116,6 +116,7 @@ void* t1(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t2(void* arg)
@@ -231,6 +232,7 @@ void* t2(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t3(void* arg)
@@ -346,6 +348,7 @@ void* t3(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t4(void* arg)
@@ -461,6 +464,7 @@ void* t4(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t5(void* arg)
@@ -576,6 +580,7 @@ void* t5(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t6(void* arg)
@@ -691,6 +696,7 @@ void* t6(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t7(void* arg)
@@ -806,6 +812,7 @@ void* t7(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t8(void* arg)
@@ -921,6 +928,7 @@ void* t8(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t9(void* arg)
@@ -1036,6 +1044,7 @@ void* t9(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 void* t10(void* arg)
@@ -1151,6 +1160,7 @@ void* t10(void* arg)
   x++;
 // 100
   assert(0<x);
+  return NULL;
 }
 
 int main(void)

@@ -68,7 +68,7 @@ void* BCSP_PnpStop(void* arg)
   }
 }
 
-void main() 
+int main()
 {
   pthread_t id;
   DEVICE_EXTENSION e;

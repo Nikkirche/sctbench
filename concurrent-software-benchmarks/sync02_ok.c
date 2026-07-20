@@ -27,6 +27,7 @@ void * thread1(void * arg)
 
     i++;
   }
+  return NULL;
 }
 
 
@@ -47,6 +48,7 @@ void * thread2(void * arg)
     pthread_cond_signal(&empty);
     j++;    
   }
+  return NULL;
 }
 
 
